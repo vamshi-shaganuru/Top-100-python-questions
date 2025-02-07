@@ -1,3 +1,3 @@
 a=10
-b=14
-print(a+b)
+b=15
+print(a-b)
