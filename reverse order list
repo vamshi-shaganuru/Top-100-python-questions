@@ -1,0 +1,18 @@
+#given an integer N,write a program to print the given N inputs in the reverse order
+"""
+n=int(input())
+l=[]
+for i in range(n):
+    s=input()
+    l=l+[s]
+for i in range(n):
+    print(l[n-i-1])
+"""
+
+n=int(input())  #sainadh
+b=[]
+for i in range(n):
+    a=input()
+    b=[a]+b
+for i in range(n):
+    print(b[i])
